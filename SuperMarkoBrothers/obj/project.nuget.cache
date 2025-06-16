@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "dgSpecHash": "fYBbH+TWRuE=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\vikil\\Documents\\vsc\\CS\\my-2d-game\\my-2d-game.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vikil\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\vikil\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\vikil\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\vikil\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.36\\microsoft.netcore.app.host.win-x64.6.0.36.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.Xna.Framework. No packages exist with this id in source(s): nuget.org",
+      "projectPath": "C:\\Users\\vikil\\Documents\\vsc\\CS\\my-2d-game\\my-2d-game.csproj",
+      "filePath": "C:\\Users\\vikil\\Documents\\vsc\\CS\\my-2d-game\\my-2d-game.csproj",
+      "libraryId": "Microsoft.Xna.Framework",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.Xna.Framework.Graphics. No packages exist with this id in source(s): nuget.org",
+      "projectPath": "C:\\Users\\vikil\\Documents\\vsc\\CS\\my-2d-game\\my-2d-game.csproj",
+      "filePath": "C:\\Users\\vikil\\Documents\\vsc\\CS\\my-2d-game\\my-2d-game.csproj",
+      "libraryId": "Microsoft.Xna.Framework.Graphics",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.Xna.Framework.Input. No packages exist with this id in source(s): nuget.org",
+      "projectPath": "C:\\Users\\vikil\\Documents\\vsc\\CS\\my-2d-game\\my-2d-game.csproj",
+      "filePath": "C:\\Users\\vikil\\Documents\\vsc\\CS\\my-2d-game\\my-2d-game.csproj",
+      "libraryId": "Microsoft.Xna.Framework.Input",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
