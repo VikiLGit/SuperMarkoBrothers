@@ -1,0 +1,379 @@
+{
+    "misc": 
+    {
+        "lives": 3,
+        "levels" : 4
+    }, 
+    "levels": 
+    [
+        {
+            "misc": 
+            {
+                "playerAttribute": {"y_velocity": 0.0, "x_velocity": 0.0, "on_ground": 1, "speed": 0.5, "character": 0, "x_pos": 0, "y_pos": 5.5, "can_jump": 0, "jump_time": 0, "jump": -10, "max_jump": 30}, 
+                "sand10x": {"width": 10, "height": 1, "texture": "textures/materials/sand10x.png", "loot": 0, "collision": 1}, 
+                "sand": {"width": 1, "height": 1, "texture": "textures/materials/sand.png", "loot": 0, "collision": 1}, 
+                "brick": {"width": 1, "height": 1, "texture": "textures/materials/brick.png", "loot": 0, "collision": 1}, 
+                "brick3x": {"width": 3, "height": 1, "texture": "textures/materials/brick3x.png", "loot": 0, "collision": 1}, 
+                "lootbox_taco": {"width": 1, "height": 1, "texture": "textures/materials/brick.png", "loot": 1, "collision": 1}, 
+                "well": {"width": 2, "height": 1, "texture": "textures/materials/well.png", "loot": 0, "collision": 1}, 
+                "canopy": {"width": 2, "height": 2, "texture": "textures/materials/canopy.png", "loot": 0, "collision": 0}, 
+                "bg_colour": {"r": 105, "g": 192, "b": 186}, 
+                "bg": {"width": 100, "height": 7.5, "texture": "textures/materials/background.png"},
+                "music": "sound/background_music.wav",
+                "food": 3000
+            }, 
+            "platforms": 
+            {
+                "sand10x": 
+                [
+                    {"x": 0, "y": 6.5}, 
+                    {"x": 10, "y": 6.5}, 
+                    {"x": 23, "y": 6.5}, 
+                    {"x": 36, "y": 6.5}, 
+                    {"x": 50, "y": 6.5}, 
+                    {"x": 60, "y": 6.5}, 
+                    {"x": 90, "y": 6.5}
+                ], 
+                "sand": 
+                [
+                    {"x": 74, "y": 6.5}, 
+                    {"x": 81, "y": 6.5}
+                ], 
+                "brick3x": 
+                [
+                    {"x": 57, "y": 3.5}, 
+                    {"x": 83, "y": 3.5}
+                ], 
+                "brick": 
+                [
+                    {"x": 31, "y": 5.5}, 
+                    {"x": 32, "y": 5.5}, 
+                    {"x": 32, "y": 4.5}, 
+                    {"x": 76, "y": 3.5}
+                ], 
+                "lootbox_taco": 
+                [
+                    {"x": 4, "y": 3.5}
+                ], 
+                "well": 
+                [
+                    {"x": 10, "y": 5.5}, 
+                    {"x": 18, "y": 5.5}, 
+                    {"x": 18, "y": 4.5}, 
+                    {"x": 18, "y": 3.5}, 
+                    {"x": 23, "y": 5.5}, 
+                    {"x": 23, "y": 4.5}, 
+                    {"x": 23, "y": 3.5}, 
+                    {"x": 44, "y": 5.5}
+                ], 
+                "canopy": 
+                [
+                    {"x": 10, "y": 3.5}, 
+                    {"x": 18, "y": 1.5}, 
+                    {"x": 23, "y": 1.5}, 
+                    {"x": 44, "y": 3.5}
+                ]
+            }, 
+            "entities": 
+            [
+                {"x": 9, "y": 5.5, "x_velocity": 1, "y_velocity": 0, "frame_count": 6, "anim_speed": 6, "type": 0, "character": 0}, 
+                {"x": 8, "y": 5.5, "x_velocity": -1, "y_velocity": 0, "frame_count": 2, "anim_speed": 6, "type": 1, "character": 1}, 
+                {"x": 10, "y": 5.5, "x_velocity": -1, "y_velocity": 0, "frame_count": 2, "anim_speed": 6, "type": 1, "character": 1}, 
+                {"x": 25, "y": 5.5, "x_velocity": -1, "y_velocity": 0, "frame_count": 2, "anim_speed": 6, "type": 1, "character": 1}, 
+                {"x": 26, "y": 5.5, "x_velocity": -1, "y_velocity": 0, "frame_count": 2, "anim_speed": 6, "type": 1, "character": 1}, 
+                {"x": 27, "y": 5.5, "x_velocity": -1, "y_velocity": 0, "frame_count": 2, "anim_speed": 6, "type": 1, "character": 1}, 
+                {"x": 43, "y": 5.5, "x_velocity": -1, "y_velocity": 0, "frame_count": 2, "anim_speed": 6, "type": 1, "character": 1}, 
+                {"x": 67, "y": 5.5, "x_velocity": -1, "y_velocity": 0, "frame_count": 6, "anim_speed": 6, "type": 0, "character": 0}, 
+                {"x": 57, "y": 5.5, "x_velocity": -1, "y_velocity": 0, "frame_count": 6, "anim_speed": 6, "type": 0, "character": 0}
+            ], 
+            "items": 
+            [
+                {"type": 3, "x": 95, "y": 5.5}
+            ]
+
+        }, 
+        {
+            "misc": 
+            {
+                "playerAttribute": {"y_velocity": 0.0, "x_velocity": 0.0, "on_ground": 1, "speed": 0.5, "character": 1, "x_pos": 0, "y_pos": 5.5, "can_jump": 0, "jump_time": 0, "jump": -10, "max_jump": 30}, 
+                "sand10x": {"width": 10, "height": 1, "texture": "textures/materials/sand10x_night.png", "loot": 0, "collision": 1}, 
+                "sand": {"width": 1, "height": 1, "texture": "textures/materials/sand_night.png", "loot": 0, "collision": 1}, 
+                "brick": {"width": 1, "height": 1, "texture": "textures/materials/brick_night.png", "loot": 0, "collision": 1}, 
+                "brick3x": {"width": 3, "height": 1, "texture": "textures/materials/brick3x_night.png", "loot": 0, "collision": 1}, 
+                "lootbox_taco": {"width": 1, "height": 1, "texture": "textures/materials/brick_night.png", "loot": 1, "collision": 1}, 
+                "well": {"width": 2, "height": 1, "texture": "textures/materials/well_night.png", "loot": 0, "collision": 1}, 
+                "canopy": {"width": 2, "height": 2, "texture": "textures/materials/canopy_night.png", "loot": 0, "collision": 0}, 
+                "bg_colour": {"r": 20, "g": 30, "b": 44}, 
+                "bg": {"width": 100, "height": 7.5, "texture": "textures/materials/background_night.png"}, 
+                "music": "sound/background_music_night.wav",
+                "food": 3000
+            }, 
+            "platforms": 
+            {
+                "sand10x": 
+                [
+                    {"x": 0, "y": 6.5}, 
+                    {"x": 10, "y": 6.5}, 
+                    {"x": 23, "y": 6.5}, 
+                    {"x": 36, "y": 6.5}, 
+                    {"x": 50, "y": 6.5}, 
+                    {"x": 60, "y": 6.5}, 
+                    {"x": 90, "y": 6.5}
+                ], 
+                "sand": 
+                [
+                    {"x": 20, "y": 6.5}, 
+                    {"x": 21, "y": 6.5}, 
+                    {"x": 22, "y": 6.5}, 
+                    {"x": 74, "y": 6.5}, 
+                    {"x": 81, "y": 6.5}
+                ], 
+                "brick3x": 
+                [
+                    {"x": 20, "y": 5.5}, 
+                    {"x": 57, "y": 3.5}, 
+                    {"x": 83, "y": 3.5}, 
+                    {"x": 91, "y": 0.5}
+                ], 
+                "brick": 
+                [
+                    {"x": 33, "y": 6.5}, 
+                    {"x": 76, "y": 3.5}, 
+                    {"x": 94, "y": 3.5}, 
+                    {"x": 96, "y": 2.5}, 
+                    {"x": 97, "y": 2.5}, 
+                    {"x": 99, "y": 5.5}, 
+                    {"x": 99, "y": 6.5}, 
+                    {"x": 99, "y": 4.5}, 
+                    {"x": 99, "y": 3.5}
+                ], 
+                "lootbox_taco": 
+                [
+                    {"x": 88, "y": 3.5}, 
+                    {"x": 95, "y": 2.5}
+                ], 
+                "well": 
+                [
+                    {"x": 32, "y": 5.5}
+                ], 
+                "canopy": 
+                [
+                    {"x": 32, "y": 3.5}
+                ]
+            }, 
+            "entities": 
+            [
+                {"x": 2, "y": 5.5, "x_velocity": 1, "y_velocity": 0, "frame_count": 2, "anim_speed": 6, "type": 1, "character": 1}, 
+                {"x": 3, "y": 5.5, "x_velocity": 1, "y_velocity": 0, "frame_count": 6, "anim_speed": 6, "type": 0, "character": 0}, 
+                {"x": 30, "y": 0.5, "x_velocity": 1, "y_velocity": 0, "frame_count": 2, "anim_speed": 6, "type": 0, "character": 0}, 
+                {"x": 50, "y": 0.5, "x_velocity": 1, "y_velocity": 0, "frame_count": 2, "anim_speed": 6, "type": 1, "character": 1}, 
+                {"x": 63, "y": 0.5, "x_velocity": -1, "y_velocity": 0, "frame_count": 6, "anim_speed": 6, "type": 0, "character": 0}, 
+                {"x": 94, "y": 5.5, "x_velocity": 1, "y_velocity": 0, "frame_count": 6, "anim_speed": 6, "type": 0, "character": 0}
+            ], 
+            "items": 
+            [
+                {"type": 3, "x": 92, "y": -0.5}, 
+                {"type": 2, "x": 58, "y": 2.5}
+            ]
+        }, 
+        {
+            "misc": 
+            {
+                "playerAttribute": {"y_velocity": 0.0, "x_velocity": 0.0, "on_ground": 1, "speed": 0.5, "character": 0, "x_pos": 0, "y_pos": 5.5, "can_jump": 0, "jump_time": 0, "jump": -10, "max_jump": 30}, 
+                "sand10x": {"width": 10, "height": 1, "texture": "textures/materials/sand10x_snow.png", "loot": 0, "collision": 1}, 
+                "sand": {"width": 1, "height": 1, "texture": "textures/materials/sand_snow.png", "loot": 0, "collision": 1}, 
+                "brick": {"width": 1, "height": 1, "texture": "textures/materials/brick_snow.png", "loot": 0, "collision": 1}, 
+                "brick3x": {"width": 3, "height": 1, "texture": "textures/materials/brick3x_snow.png", "loot": 0, "collision": 1}, 
+                "lootbox_taco": {"width": 1, "height": 1, "texture": "textures/materials/brick_snow.png", "loot": 1, "collision": 1}, 
+                "well": {"width": 2, "height": 1, "texture": "textures/materials/well.png", "loot": 0, "collision": 1}, 
+                "canopy": {"width": 2, "height": 2, "texture": "textures/materials/canopy_snow.png", "loot": 0, "collision": 0}, 
+                "bg_colour": {"r": 159, "g": 230, "b": 247}, 
+                "bg": {"width": 100, "height": 7.5, "texture": "textures/materials/background_snow.png"}, 
+                "music": "sound/background_music.wav",
+                "food": 3000
+            }, 
+            "platforms": 
+            {
+                "sand10x": 
+                [
+                    {"x": 0, "y": 6.5}, 
+                    {"x": 10, "y": 6.5}, 
+                    {"x": 23, "y": 6.5}, 
+                    {"x": 50, "y": 6.5}, 
+                    {"x": 60, "y": 6.5}, 
+                    {"x": 90, "y": 6.5}
+                ], 
+                "sand": 
+                [
+                    {"x": 69, "y": 5.5}, 
+                    {"x": 74, "y": 6.5}, 
+                    {"x": 77, "y": 6.5}, 
+                    {"x": 81, "y": 6.5}
+                ], 
+                "brick3x": 
+                [
+                    {"x": 14, "y": 3.5}, 
+                    {"x": 35, "y": 6.5}, 
+                    {"x": 52, "y": 5.5}, 
+                    {"x": 52, "y": 3.5}, 
+                    {"x": 55, "y": 5.5}, 
+                    {"x": 55, "y": 3.5}, 
+                    {"x": 78, "y": 3.5}, 
+                    {"x": 83, "y": 3.5}
+                ], 
+                "brick": 
+                [
+                    {"x": 15, "y": 0.5}, 
+                    {"x": 17, "y": -1.5}, 
+                    {"x": 31, "y": 5.5}, 
+                    {"x": 32, "y": 5.5}, 
+                    {"x": 32, "y": 4.5}, 
+                    {"x": 37, "y": 2.5}, 
+                    {"x": 38, "y": 2.5}, 
+                    {"x": 44, "y": 6.5}, 
+                    {"x": 45, "y": 6.5}, 
+                    {"x": 52, "y": 2.5}, 
+                    {"x": 52, "y": 1.5}, 
+                    {"x": 74, "y": 3.5}, 
+                    {"x": 75, "y": 3.5}
+                ], 
+                "lootbox_taco": 
+                [
+                    {"x": 16, "y": 3.5}
+                ], 
+                "well": 
+                [
+                    {"x": 10, "y": 5.5}, 
+                    {"x": 23, "y": 5.5}, 
+                    {"x": 23, "y": 4.5}, 
+                    {"x": 23, "y": 3.5}, 
+                    {"x": 23, "y": 2.5}, 
+                    {"x": 44, "y": 5.5}, 
+                    {"x": 54, "y": 2.5}
+                ], 
+                "canopy": 
+                [
+                    {"x": 10, "y": 3.5}, 
+                    {"x": 23, "y": 0.5}, 
+                    {"x": 44, "y": 3.5}, 
+                    {"x": 54, "y": 0.5}
+                ]
+            }, 
+            "entities": 
+            [
+                {"x": 7, "y": 5.5, "x_velocity": -2, "y_velocity": 0, "frame_count": 2, "anim_speed": 6, "type": 1, "character": 1}, 
+                {"x": 8, "y": 5.5, "x_velocity": -2, "y_velocity": 0, "frame_count": 2, "anim_speed": 6, "type": 1, "character": 1}, 
+                {"x": 9, "y": 5.5, "x_velocity": -2, "y_velocity": 0, "frame_count": 2, "anim_speed": 6, "type": 1, "character": 1}, 
+                {"x": 10, "y": 5.5, "x_velocity": -2, "y_velocity": 0, "frame_count": 2, "anim_speed": 6, "type": 1, "character": 1}, 
+                {"x": 25, "y": 5.5, "x_velocity": 2, "y_velocity": 0, "frame_count": 6, "anim_speed": 6, "type": 0, "character": 0}, 
+                {"x": 54, "y": 4.5, "x_velocity": 1, "y_velocity": 0, "frame_count": 6, "anim_speed": 6, "type": 0, "character": 0}, 
+                {"x": 55, "y": 4.5, "x_velocity": 1, "y_velocity": 0, "frame_count": 2, "anim_speed": 6, "type": 1, "character": 1}, 
+                {"x": 56, "y": 4.5, "x_velocity": 1, "y_velocity": 0, "frame_count": 2, "anim_speed": 6, "type": 1, "character": 1}, 
+                {"x": 57, "y": 4.5, "x_velocity": 1, "y_velocity": 0, "frame_count": 6, "anim_speed": 6, "type": 0, "character": 0}, 
+                {"x": 80, "y": 2.5, "x_velocity": -1, "y_velocity": 0, "frame_count": 2, "anim_speed": 6, "type": 1, "character": 1}, 
+                {"x": 85, "y": 2.5, "x_velocity": -1, "y_velocity": 0, "frame_count": 2, "anim_speed": 6, "type": 1, "character": 1}
+            ], 
+            "items": 
+            [
+                {"type": 3, "x": 95, "y": 5.5}, 
+                {"type": 1, "x": 52, "y": -2.5}
+            ]
+        }, 
+        {
+            "misc": 
+            {
+                "playerAttribute": {"y_velocity": 0.0, "x_velocity": 0.0, "on_ground": 1, "speed": 0.5, "character": 1, "x_pos": 0, "y_pos": 5.5, "can_jump": 0, "jump_time": 0, "jump": -10, "max_jump": 30}, 
+                "sand10x": {"width": 10, "height": 1, "texture": "textures/materials/sand10x_snow_night.png", "loot": 0, "collision": 1}, 
+                "sand": {"width": 1, "height": 1, "texture": "textures/materials/sand_snow_night.png", "loot": 0, "collision": 1}, 
+                "brick": {"width": 1, "height": 1, "texture": "textures/materials/brick_snow_night.png", "loot": 0, "collision": 1}, 
+                "brick3x": {"width": 3, "height": 1, "texture": "textures/materials/brick3x_snow_night.png", "loot": 0, "collision": 1}, 
+                "lootbox_taco": {"width": 1, "height": 1, "texture": "textures/materials/brick_snow_night.png", "loot": 1, "collision": 1}, 
+                "well": {"width": 2, "height": 1, "texture": "textures/materials/well_night.png", "loot": 0, "collision": 1}, 
+                "canopy": {"width": 2, "height": 2, "texture": "textures/materials/canopy_snow_night.png", "loot": 0, "collision": 0}, 
+                "bg_colour": {"r": 10, "g": 17, "b": 27}, 
+                "bg": {"width": 100, "height": 7.5, "texture": "textures/materials/background_snow_night.png"}, 
+                "music": "sound/background_music_night.wav",
+                "food": 3000
+            }, 
+            "platforms": 
+            {
+                "sand10x": 
+                [
+                    {"x": 0, "y": 6.5}, 
+                    {"x": 10, "y": 6.5}, 
+                    {"x": 50, "y": 6.5}, 
+                    {"x": 60, "y": 6.5}, 
+                    {"x": 70, "y": 6.5}, 
+                    {"x": 90, "y": 6.5}
+                ], 
+                "sand": 
+                [
+                    {"x": 24, "y": 6.5}, 
+                    {"x": 25, "y": 6.5}, 
+                    {"x": 26, "y": 6.5}, 
+                    {"x": 27, "y": 6.5}, 
+                    {"x": 28, "y": 6.5}, 
+                    {"x": 40, "y": 6.5}, 
+                    {"x": 41, "y": 6.5}, 
+                    {"x": 42, "y": 6.5}, 
+                    {"x": 43, "y": 6.5}, 
+                    {"x": 47, "y": 6.5}, 
+                    {"x": 80, "y": 6.5}, 
+                    {"x": 81, "y": 6.5}, 
+                    {"x": 89, "y": 6.5}
+                ], 
+                "brick3x": 
+                [
+                    {"x": 32, "y": 3.5}, 
+                    {"x": 59, "y": 3.5}, 
+                    {"x": 83, "y": 3.5}, 
+                    {"x": 94, "y": 0.5}
+                ], 
+                "brick": 
+                [
+                    {"x": 19, "y": 3.5}, 
+                    {"x": 76, "y": 3.5}, 
+                    {"x": 91, "y": 3.5}
+                ], 
+                "lootbox_taco": 
+                [
+                    {"x": 45, "y": 3.5}
+                ], 
+                "well": 
+                [
+                    {"x": 13, "y": 5.5}, 
+                    {"x": 13, "y": 4.5}, 
+                    {"x": 13, "y": 3.5}, 
+                    {"x": 25, "y": 5.5}, 
+                    {"x": 25, "y": 4.5}, 
+                    {"x": 25, "y": 3.5}, 
+                    {"x": 80, "y": 5.5}, 
+                    {"x": 89, "y": 5.5}, 
+                    {"x": 89, "y": 4.5}, 
+                    {"x": 89, "y": 3.5}, 
+                    {"x": 89, "y": 2.5}
+                ], 
+                "canopy": 
+                [
+                    {"x": 13, "y": 1.5}, 
+                    {"x": 25, "y": 1.5}, 
+                    {"x": 80, "y": 3.5}, 
+                    {"x": 89, "y": 0.5}
+                ]
+            }, 
+            "entities": 
+            [
+                {"x": 5, "y": 5.5, "x_velocity": 1, "y_velocity": 0, "frame_count": 2, "anim_speed": 6, "type": 1, "character": 1}, 
+                {"x": 11, "y": 5.5, "x_velocity": 1, "y_velocity": 0, "frame_count": 6, "anim_speed": 6, "type": 0, "character": 0}, 
+                {"x": 19, "y": 5.5, "x_velocity": -1, "y_velocity": 0, "frame_count": 2, "anim_speed": 6, "type": 1, "character": 1}, 
+                {"x": 58, "y": 5.5, "x_velocity": -1, "y_velocity": 0, "frame_count": 6, "anim_speed": 6, "type": 0, "character": 0}, 
+                {"x": 60, "y": 5.5, "x_velocity": -1, "y_velocity": 0, "frame_count": 6, "anim_speed": 6, "type": 0, "character": 0}, 
+                {"x": 97, "y": 5.5, "x_velocity": -1, "y_velocity": 0, "frame_count": 2, "anim_speed": 6, "type": 1, "character": 1}
+            ], 
+            "items": 
+            [
+                {"type": 3, "x": 95, "y": -0.5}
+            ]
+        }
+    ]
+}

@@ -1,6 +1,6 @@
 #the code goes here
 
-#pygamen tuontis
+#pygamen tuonti
 import pygame, csv
 
 #pygamen initialisaatio
