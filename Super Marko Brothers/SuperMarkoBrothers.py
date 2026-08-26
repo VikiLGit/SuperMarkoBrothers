@@ -17,7 +17,7 @@ screensize = (800, 600)
 
 SIZE = 80
 print(SIZE)
-print(screensize)
+print(screensize) 
 #pygamen initialisaatio
 pygame.init()
 pygame.mixer.init()
@@ -79,7 +79,7 @@ class Attribute:
         self.frame_count = 4 #kuinka monta kehystä animaatiossa on (kävely ei muut)
         self.flip = False
     def __str__(self):
-        return f" x_velocity={self.x_velocity}, y_velocity={self.y_velocity}"
+        return f" x_velocity = {self.x_velocity}, y_velocity = {self.y_velocity}, on_ground = {self.on_ground}, speed = {self.speed}, character = {self.character}, x_pos = {self.x_pos}, y_pos = {self.y_pos}, rect = {self.rect}, can_jump = {self.can_jump}, jump_time = {self.can_jump}, jump = {self.jump}, max_jump = {self.max_jump}, alive = {self.alive}, frameid = {self.frameid}, delay = {self.delay}, frame_count = {self.frame_count}, flip = {self.flip}"
     def update_velocity(self, x_delta, gravity):
         if self.y_velocity > t_velocity*(SIZE/80):
             self.y_velocity = t_velocity*(SIZE/80)
@@ -134,6 +134,7 @@ class Attribute:
         #pelaajan paikannus(test)
         if key[pygame.K_l]:
             print((self.x_pos-global_x_offset),(self.y_pos-global_y_offset))
+            print((self.x_pos-global_x_offset)//80,(self.y_pos-global_y_offset)//80)
         if self.on_ground:
             self.can_jump = True
             self.jump_time = 0
@@ -218,7 +219,7 @@ class Object:
                         player.y_pos = global_y_offset + location[1] +self.height
                         player.y_velocity = 0
                         if not self.loot == 0:
-                            items.append(Item(type=self.loot,x_pos=global_x_offset + location[0],y_pos=global_y_offset + location[1]-SIZE))
+                            items.append(Item(type=self.loot,x_pos= location[0],y_pos=location[1]-SIZE))
                             self.loot = 0
 
                     #osumat palikan oikea laita
