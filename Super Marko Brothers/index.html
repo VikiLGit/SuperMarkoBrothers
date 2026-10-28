@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Marko Brothers</title>
+    <style>
+        /* Retrohenkinen ulkoasu ja pelialueen keskitys */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #111;
+            color: #fff;
+            font-family: 'Courier New', Courier, monospace;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            overflow: hidden;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+            font-size: 24px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #ffcc00;
+            text-shadow: 2px 2px #000;
+        }
+
+        /* Pelikangas (Canvas) asetukset */
+        canvas {
+            border: 4px solid #fff;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
+            background-color: #000;
+            
+            /* Varmistaa, että pikseligrafiikka pysyy terävänä eikä sumennu selaimessa */
+            image-rendering: crisp-edges;
+            image-rendering: pixelated;
+        }
+
+        .instructions {
+            margin-top: 15px;
+            font-size: 14px;
+            color: #aaa;
+            text-align: center;
+            max-width: 800px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Super Marko Brothers</h1>
+
+    <!-- Peli luo canvaksen automaattisesti scriptissä, 
+         mutta voit myös pitää sen tässä tai antaa JS:n lisätä sen.
+         Koodissasi oli document.body.appendChild(canvas), joten se ilmestyy tähän. -->
+
+    <div class="instructions">
+        <strong>Ohjaimet:</strong> <br>
+        Liikkuminen: <strong>A</strong> (vasen) ja <strong>D</strong> (oikea) | Hyppy: <strong>W</strong> <br>
+        Pisteiden tallennus: <strong>ENTER</strong> | Jatka tallentamatta / Takaisin: <strong>ESC</strong>
+    </div>
+
+    <!-- Ladataan pelin JavaScript-tiedosto -->
+    <script src="./marko.js"></script>
+
+</body>
+</html>
